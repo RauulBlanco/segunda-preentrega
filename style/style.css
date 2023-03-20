@@ -1,16 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:ital@0;1&display=swap');
 
 
+/* Tamaño de la nav */
+a{
+    
+}
+.centrarnav{
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    font-size: 1.25rem;
+}
 
 
 
 
+/* Pisando detalles en css */
 
-h1{
+.estiloLetra{
     font-family: 'Roboto', sans-serif;
+}
+    
+h1 {
     font-weight: bold;
     font-size: 50px;
-    text-align: center;
     text-transform: uppercase;
-    margin: 60px 1px 60px 1px;
+}
+
+h2{
+    font-size: 35px;
 }
