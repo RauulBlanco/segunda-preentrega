@@ -18,7 +18,7 @@
     <header class="centrarnav">
         <nav class="navbar navbar-expand-lg navbar-light aliceblue bordeSolid">
             <div class="container-fluid ">
-                <a class="navbar-brand active estiloLetra" href="./index.html">INICIO</a>
+                <a class="navbar-brand active estiloLetra " href="./index.html">INICIO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,11 +43,11 @@
         </nav>
     </header>
 
-
+<!-- no se como hacer para que cuando sea responsive poder acomodar mejor las imagenes de los costados, mi idea era poder hacer que el h1 y el p esten primeros y las imagenes ultimas ( en responsive bajando la resolucion) -->
     <main>
         <section class="container-fluid">
             <div class="row">
-                <section class="banner-left col-lg-2">
+                <section class="banner-left col-lg-2 col-md-12"> 
                     <div class="espaciado">
                         <img src="./image/messi2006-07.jpg" alt="Messi mirando hacia la izquierda en champions league 2006/07">
                     </div>
@@ -56,7 +56,7 @@
                             alt="Messi besando su botin azul festejando un gol en la final de la champions league">
                     </div>
                 </section>
-                <div class="aliceblue bordeSolid col-lg-8 centroo">
+                <div class="aliceblue bordeSolid col-lg-8 col-md-12 centroo">
                     <H1 class="estiloLetra">
                         MESSI Y SUS 4 CHAMPIONS LEAGUE
                     </H1>
@@ -83,7 +83,7 @@
                         </p>
                     </section>
                 </div>    
-                <section class="banner-right col-lg-2">
+                <section class="banner-right col-lg-2 col-md-12">
                     <div class="espaciado">
                         <img src="./image/messi2010-11.jpg"
                             alt="Messi besando su escudo y gritando gol en la final de la champions">
@@ -99,13 +99,15 @@
     </main>
 
     <footer>
-        <div>
-            <a target="_blank" href="https://www.facebook.com/leomessi?locale=es_LA"><img
-                    src="./image/icon-facebook.svg" alt="Icono de facebook"></a>
-            <a target="_blank" href="https://www.instagram.com/leomessi/"><img src="./image/icons-instagram.svg"
-                    alt="icono de instagram"></a>
-            <a target="_blank" href="https://es.uefa.com/uefachampionsleague/"><img src="./image/icono-información.svg"
-                    alt="icono de copa"></a>
+        <div class="container-fluid">
+            <section class="d-flex justify-content-center footer" >
+                <a class="iconosfot" target="_blank" href="https://www.facebook.com/leomessi?locale=es_LA"><img
+                        src="./image/icon-facebook.svg" alt="Icono de facebook"></a>
+                <a class="iconosfot" target="_blank" href="https://www.instagram.com/leomessi/"><img src="./image/icons-instagram.svg"
+                        alt="icono de instagram"></a>
+                <a class="iconosfot" target="_blank" href="https://es.uefa.com/uefachampionsleague/"><img src="./image/icono-información.svg"
+                        alt="icono de copa"></a>
+            </section>            
         </div>
     </footer>
 

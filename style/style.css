@@ -30,7 +30,9 @@ header {
 }
 .aliceblue {
     background-color: aliceblue;
+    padding: 0px 40px 0px 40px;
 }
+
 
 
 /* Detalles del centro */
@@ -71,10 +73,10 @@ h2{
 }
 
 p{
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     margin-bottom: 50px;
-    tex
+    line-height: 30px;
 }
 
 /* acomodando banners de izq-der */
@@ -85,5 +87,15 @@ p{
     padding: 10px;
     margin-top: 20px;
     background-color: rgb(14, 1, 39)
+    
+}
+
+.footer {
+    padding: 20px;
+    background-color: rgb(7, 44, 58)
+}
+
+.iconosfot {
+    padding: 15px;
     
 }
