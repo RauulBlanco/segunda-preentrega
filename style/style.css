@@ -1,22 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:ital@0;1&display=swap');
 
+/* Banner del centro */
+
+.banner-centro {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 3, 90);
+
+}
 
 /* Tamaño de la nav */
-a{
-    
+
+header {
+    padding:7px;
 }
+
 .centrarnav{
     display: flex;
     justify-content: center;
 }
+
 .nav-item{
     font-size: 1.25rem;
 }
 
+.bordeSolid {
+    border: 3px solid black;
+    
+}
+.aliceblue {
+    background-color: aliceblue;
+}
 
+
+/* Detalles del centro */
+
+.margen {
+    margin: 5px 12% 5px 12%;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 79px;
+}
 
 
 /* Pisando detalles en css */
+
+body {
+    background-color: rgba(43, 111, 199, 0.774);
+}
 
 .estiloLetra{
     font-family: 'Roboto', sans-serif;
@@ -26,8 +60,30 @@ h1 {
     font-weight: bold;
     font-size: 50px;
     text-transform: uppercase;
-}
+    padding: 50px;
+    text-align: center;
+    }
 
 h2{
     font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+    tex
+}
+
+/* acomodando banners de izq-der */
+
+.espaciado {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(14, 1, 39)
+    
 }
