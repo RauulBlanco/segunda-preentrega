@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:ital@0;1&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Los 3 Breackpoints estan echos con bts, en las consignas del pdf dice que lo ideal es combinar los 2 metos de responsive que vimos pero no es obligatorio usar ambos! */
+
 /* Banner del centro */
 
 .banner-centro {
@@ -30,7 +37,7 @@ header {
 }
 .aliceblue {
     background-color: aliceblue;
-    padding: 0px 40px 0px 40px;
+    padding: 0% 10% 0% 10%;
 }
 
 
@@ -83,28 +90,32 @@ p{
 }
 
 /* acomodando banners de izq-der */
-
-.espaciado {
+/* No queda bien alinieado las imagens por el tamaño , lo se tengo que cambiarlas pero bueno  */
+.banner-left{
     display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
+.banner-right{
+    display: flex
+    flex-direction: column
+    width: 2%
+} 
+
+.espaciado {
+    
+    margin-top: 20%;
+    margin-bottom: 0%;  
+}
+ /* ---------------------------------------- */
 .footer {
     padding: 20px;
-    background-color: rgb(7, 44, 58)
+    background-color: rgb(7, 44, 58);
 }
 
 .iconosfot {
     padding: 15px;
 }
 
-.banner-left{
-    display: grid;
-}
-
-.banner-right{
-    display: grid;
-}
